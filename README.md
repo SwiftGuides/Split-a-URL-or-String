@@ -18,3 +18,6 @@ Guide to Split URL to get only needed Values from the whole URL
                     
                     //Get String Value After "/" Charset
                     let applicationName = FinalString?.last
+                    
+                    print(hostAddress) // prints "a51abd.entrypoint.cloud.wowza.com"
+                    print(applicationName) //prints "app-2240"
