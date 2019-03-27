@@ -1,6 +1,7 @@
 # Split-a-URL-or-String
 Guide to Split URL to get only needed Values from the whole URL
 
+```swift
 
                     let fileName = "rtmp://a51abd.entrypoint.cloud.wowza.com/app-2240"
                     
@@ -21,3 +22,5 @@ Guide to Split URL to get only needed Values from the whole URL
                     
                     print(hostAddress) // prints "a51abd.entrypoint.cloud.wowza.com"
                     print(applicationName) //prints "app-2240"
+
+```
